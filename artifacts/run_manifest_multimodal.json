@@ -1,0 +1,74 @@
+{
+  "run_timestamp": "20260412_102026",
+  "dataset": "KPMP Matched Plasma+Urine 2022 (n=136)",
+  "n_samples": 136,
+  "n_ati": 17,
+  "prevalence": 0.125,
+  "n_aki_subgroup": 30,
+  "n_ati_aki": 17,
+  "clinical_lr": {
+    "auroc": 0.95,
+    "auroc_ci": [
+      0.909,
+      0.981
+    ],
+    "auprc": 0.692,
+    "bss": 0.289,
+    "aki_auroc": 0.547,
+    "aki_auroc_ci": [
+      0.33,
+      0.763
+    ]
+  },
+  "urine_xgb": {
+    "auroc": 0.906,
+    "auroc_ci": [
+      0.829,
+      0.966
+    ],
+    "auprc": 0.518,
+    "bss": 0.25223635718374227,
+    "ece": 0.0723972109720629,
+    "permutation_pval": 0.001,
+    "aki_auroc": 0.469,
+    "aki_auroc_ci": [
+      0.241,
+      0.709
+    ],
+    "aki_bss": -0.436
+  },
+  "plasma_xgb_matched": {
+    "auroc": 0.889,
+    "auroc_ci": [
+      0.804,
+      0.956
+    ],
+    "auprc": 0.457,
+    "bss": 0.20316427286505245,
+    "ece": 0.06461935745085881,
+    "permutation_pval": 0.001,
+    "aki_auroc": 0.344,
+    "aki_auroc_ci": [
+      0.139,
+      0.567
+    ],
+    "aki_bss": -0.49
+  },
+  "combined_xgb": {
+    "auroc": 0.931,
+    "auroc_ci": [
+      0.878,
+      0.972
+    ],
+    "auprc": 0.564,
+    "bss": 0.3139170124971832,
+    "ece": 0.06103978883931184,
+    "permutation_pval": 0.001,
+    "aki_auroc": 0.526,
+    "aki_auroc_ci": [
+      0.3,
+      0.75
+    ],
+    "aki_bss": -0.302
+  }
+}

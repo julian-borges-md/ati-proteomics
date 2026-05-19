@@ -1,0 +1,37 @@
+{
+  "calibrated": {
+    "ECE": 0.4290551390837539,
+    "brier_score": 0.3686497601294269,
+    "log_loss": 1.1800687263438863
+  },
+  "uncalibrated": {
+    "ECE": 0.3929906284267252,
+    "brier_score": 0.3085460066795349,
+    "log_loss": 1.0027676843403468
+  },
+  "calibration_curve_calibrated": {
+    "mean_predicted": [
+      0.0,
+      0.34679782812794047,
+      0.9600000023841858
+    ],
+    "fraction_positive": [
+      0.0,
+      1.0,
+      0.5
+    ]
+  },
+  "calibration_curve_uncalibrated": {
+    "mean_predicted": [
+      0.09150845557451248,
+      0.4784947832425435,
+      0.929227372010549
+    ],
+    "fraction_positive": [
+      0.0,
+      1.0,
+      0.5
+    ]
+  },
+  "simulated": true
+}

@@ -1,0 +1,90 @@
+{
+  "run_timestamp": "20260412_095619",
+  "manuscript_version": "v5",
+  "dataset": "KPMP SomaScan 2022+2024 harmonized",
+  "n_samples": 320,
+  "n_ati_positive": 28,
+  "n_ati_negative": 292,
+  "prevalence": 0.0875,
+  "validation": "StratifiedKFold(n_splits=5)+inside-CV-variance-selection+bootstrap(n=2000)+permutation(n=1000)",
+  "note_variance_selection": "Top-500 selected inside each CV training fold \u2014 no leakage",
+  "primary_analysis": "AKI-only subgroup (n=61, ATI+=28)",
+  "secondary_analysis": "Full cohort (n=320)",
+  "random_auprc_full": 0.087,
+  "random_auprc_aki": 0.459,
+  "naive_brier_full": 0.08,
+  "naive_brier_aki": 0.248,
+  "clinical_lr_full": {
+    "auroc": 0.939,
+    "auroc_ci_95": [
+      0.9,
+      0.969
+    ],
+    "auprc": 0.588,
+    "auprc_ci_95": [
+      0.407,
+      0.75
+    ],
+    "brier": 0.082,
+    "bss": -0.029,
+    "ece": 0.135,
+    "permutation_pval": 0.001
+  },
+  "xgb_uncal_full": {
+    "auroc": 0.925,
+    "auroc_ci_95": [
+      0.887,
+      0.957
+    ],
+    "auprc": 0.493,
+    "brier": 0.059,
+    "bss": 0.258,
+    "ece": 0.018
+  },
+  "xgb_cal_full": {
+    "auroc": 0.896,
+    "auroc_ci_95": [
+      0.837,
+      0.947
+    ],
+    "auprc": 0.493,
+    "auprc_ci_95": [
+      0.31,
+      0.665
+    ],
+    "brier": 0.061,
+    "bss": 0.23,
+    "ece": 0.036,
+    "permutation_pval": 0.001,
+    "auroc_diff_pval_vs_lr": 0.115
+  },
+  "clinical_lr_aki": {
+    "auroc": 0.611,
+    "auroc_ci_95": [
+      0.461,
+      0.746
+    ],
+    "auprc": 0.609,
+    "auprc_ci_95": [
+      0.436,
+      0.767
+    ],
+    "brier": 0.374,
+    "bss": -0.507
+  },
+  "xgb_cal_aki": {
+    "auroc": 0.52,
+    "auroc_ci_95": [
+      0.37,
+      0.669
+    ],
+    "auprc": 0.544,
+    "auprc_ci_95": [
+      0.375,
+      0.712
+    ],
+    "brier": 0.312,
+    "bss": -0.258,
+    "auroc_diff_pval_vs_lr": 0.23
+  }
+}

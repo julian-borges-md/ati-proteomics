@@ -1,0 +1,3 @@
+feature,xgb_gain_importance,permutation_importance,rank
+egfr,0.81546265,0.7582807133814009,1
+age,0.1845373,0.06457939073714267,2

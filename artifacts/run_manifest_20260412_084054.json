@@ -1,0 +1,30 @@
+{
+  "run_timestamp": "20260412_084054",
+  "n_samples": 184,
+  "n_ati_positive": 11,
+  "n_ati_negative": 173,
+  "prevalence": 0.059782608695652176,
+  "data_source": "KPMP SomaScan Plasma 2024 + OpenAccessClinicalData 20260309",
+  "kpmp_citation": "Accessed April 12, 2026. https://www.kpmp.org",
+  "arms": [
+    "clinical_lr",
+    "xgb_calibrated"
+  ],
+  "clinical_lr": {
+    "arm": "clinical_lr",
+    "auroc": 0.8712559117183394,
+    "log_loss": 0.3830690504007948,
+    "brier": 0.10543802702309213
+  },
+  "xgb_calibrated": {
+    "arm": "xgb_calibrated",
+    "auroc_uncal": 0.8843930635838151,
+    "log_loss_uncal": 0.20074622768734568,
+    "brier_uncal": 0.05985497310757637,
+    "auroc_cal": 0.9259064634787179,
+    "log_loss_cal": 0.18064096057057294,
+    "brier_cal": 0.049752495999442474,
+    "ece": 0.051854696032059146,
+    "n_proteins": 500
+  }
+}

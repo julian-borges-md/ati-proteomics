@@ -1,0 +1,3 @@
+rank,feature,protein_name,pathway_category,functional_description,source
+1,egfr,EGF,tissue repair and regeneration,EGF; tubular regeneration and repair signaling,Literature + UniProt
+2,age,age,other,Requires SomaScan manifest mapping,PLACEHOLDER

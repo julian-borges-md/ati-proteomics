@@ -1,0 +1,39 @@
+{
+  "run_timestamp": "20260412_090337",
+  "dataset": "KPMP SomaScan 2022+2024 harmonized",
+  "n_samples": 320,
+  "n_ati_positive": 28,
+  "n_ati_negative": 292,
+  "prevalence": 0.0875,
+  "n_proteins_shared": 7481,
+  "n_proteins_used": 500,
+  "kpmp_citation": "Accessed April 12, 2026. https://www.kpmp.org",
+  "clinical_lr": {
+    "auroc": 0.9383561643835617,
+    "log_loss": 0.3063942206101016,
+    "brier": 0.08215991630382426
+  },
+  "xgb_uncal": {
+    "auroc": 0.9217221135029354,
+    "log_loss": 0.19187210284550354,
+    "brier": 0.05999334529042244
+  },
+  "xgb_calibrated": {
+    "auroc": 0.8984833659491194,
+    "log_loss": 0.21149497640999043,
+    "brier": 0.06048204551084239,
+    "ece": 0.03531056988004066
+  },
+  "top_proteins": [
+    "KDIGO_num",
+    "PRDX3",
+    "PPFIA1",
+    "DLX4",
+    "NPLOC4",
+    "MYL3",
+    "THBS1",
+    "HAVCR1",
+    "EEF1A1",
+    "PDIA3"
+  ]
+}

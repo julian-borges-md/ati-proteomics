@@ -1,0 +1,12 @@
+{
+  "run_id": "RO-2026-001-A",
+  "timestamp": "2026-04-12T00:00:00Z",
+  "dataset_version": "SYNTHETIC_v1",
+  "model_name": "Lasso+XGBoost+CalibratedCV",
+  "log_loss_mean_combined": 0.6847810432010611,
+  "auroc_mean_combined": 0.8621249999999999,
+  "n_features_selected": 2,
+  "n_samples": 44,
+  "simulated": true,
+  "status": "COMPLETE"
+}

@@ -1,0 +1,46 @@
+# ─── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ─── Environments ──────────────────────────────────────────
+.env
+.venv
+venv/
+ENV/
+env/
+
+# ─── Data (raw KPMP file — DUA restricted, never commit) ───
+data/raw/
+data/processed/
+
+# ─── Artifacts (large binaries, generated outputs) ─────────
+artifacts/figures/*.png
+artifacts/figures/*.pdf
+
+# ─── Jupyter ───────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── macOS ─────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ─── IDE ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Test cache ────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
